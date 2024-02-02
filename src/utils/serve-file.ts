@@ -1,7 +1,7 @@
 import express from "express";
-import { join } from "path";
-import { pathToRegexp } from "path-to-regexp";
-import type { Application, NextFunction, Request, Response } from "express";
+import {join} from "path";
+import {pathToRegexp} from "path-to-regexp";
+import type {Application, NextFunction, Request, Response} from "express";
 
 type Options = {
   rootPath?: string;
